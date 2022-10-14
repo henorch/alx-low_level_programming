@@ -8,10 +8,10 @@
 
 int main(void)
 {
-printf("Size of a char: %zu byte(s)\n", sizeof(char));
-printf("Size of an int: %zu btyes(s)\n", sizeof(int));
-print("Size of a long int: %zu btye(s)\n", sizeof(long int))
-print("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
-print ("Size of a float: %zu byte(s)\n", sizeof(float));
+printf("Size of a char: %2d byte(s)\n", sizeof(char));
+printf("Size of an int: %2d btyes(s)\n", sizeof(int));
+print("Size of a long int: %2d btye(s)\n", sizeof(long int))
+print("Size of a long long int: %2d byte(s)\n", sizeof(long long int));
+print ("Size of a float: %2d byte(s)\n", sizeof(float));
 return (0);
 }
