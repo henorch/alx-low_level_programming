@@ -12,19 +12,19 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("%s", "Last string of");
-printf("n");
+printf("Last digit of ");
+printf(n);
 if (n > 5)
 {
-printf("%s", "is" n "and is grreater than 5\n");
+printf("is %d and is greater than 5\n", n);
 }
 else if (n == 0)
 {
-printf("%s", "is" n "and is zero\n");
+printf("is %d and is zero\n", n);
 }
 else if (n < 6 && n != 0)
 {
-printf("%s", "is" n "and is less than 6 and not 0\n");
+printf("is %d and is less than 6 and not 0\n", n);
 }
 return (0);
 }
