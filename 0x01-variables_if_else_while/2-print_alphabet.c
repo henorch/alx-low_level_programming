@@ -11,8 +11,8 @@ char i;
 
 for (i = 'a'; i <= 'z'; ++i)
 {
-printf("%c", i );
+printf("%c", i);
 }
-printf(" "); 
+printf("\n");
 return (0);
 }
