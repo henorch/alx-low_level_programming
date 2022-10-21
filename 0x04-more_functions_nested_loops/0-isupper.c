@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 /**
  *_isupper- check if the input is upper
  *@c: This hold an interger varibale
@@ -15,4 +15,5 @@ return (0);
 else
 {
 return (1);
+}
 }
