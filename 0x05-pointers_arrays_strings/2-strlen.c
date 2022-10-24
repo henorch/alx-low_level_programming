@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+
 /**
  * _strlen- length of string
  * @s: the pointer
@@ -7,10 +9,11 @@
 
 int _strlen(char *s)
 {
-char str[100];
-str[100] = *s;	
-char cnt;
-cnt = sizeof str;
-_putchar(cnt - 1);
-return (0);
+int ln = 0;
+while (*s != '\0')
+{
+ln++;
+s++;
 }
+return (ln);
+}	
