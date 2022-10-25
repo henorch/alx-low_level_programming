@@ -13,7 +13,7 @@ int i = 0;
 do {
 printf("%d", *(a + i));
 if (i != n - 1)
-printf(",");
+printf(", ");
 i++;
 }
 while (i < n);
