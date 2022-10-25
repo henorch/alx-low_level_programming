@@ -8,13 +8,23 @@
 
 void rev_string(char *s)
 {
-int i, len = 0;
-for (i = 0; *(s+i) != '\0'; i++)
+int i,j, len = 0;
+char *str, temp;
+
+
+while (len >= 0)
 {
+if (s[len] != '\0')
 len++;
 }
-for (i = len - 1; i >= 0; i--)
+str = s;
+for (i = 0; i < (len - 1); i++)
 {
-printf("%c", *(s+i));
+for (j = i + 1; j > 0; j--)
+{
+temp = *(str + j);
+*(str + j ) = * (str + (j - 1));
+*(str + (j - 1)) = temp;
+}
 }
 }
