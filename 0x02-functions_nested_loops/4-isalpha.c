@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_islower- entry
+ *_isalpha- entry
  *@c: the variable
  * Return: 0
  */
