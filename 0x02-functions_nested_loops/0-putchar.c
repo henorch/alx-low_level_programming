@@ -7,6 +7,15 @@
 
 int main(void)
 {
-printf("_putchar");
+char str[] = "_putchar";
+int i = 0;
+
+while (str[i] != '\0')
+{
+char item = str[i];
+_putchar(item);
+i++;
+}
+_putchar('\n');
 return (0);
 }
