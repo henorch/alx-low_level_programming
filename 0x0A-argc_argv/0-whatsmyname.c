@@ -4,7 +4,7 @@
 /**
  * main- I print my name
  * @argc: The length
- * argv: The pointer
+ *@argv: The pointer
  * Return: default 0
  */
 
