@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void main(void)
+int main(void)
 {
 int i, z = 0;
 while (i < 1024)
@@ -17,5 +17,7 @@ z += i;
 i++;
 }
 printf("%d\n", z);
+return (0);
 }
+
 
