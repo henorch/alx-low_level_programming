@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- *_strcat- This concatenate string
+ * _strcat- contcat strings
  * @dest: destination
- * @src: The source
- * @Return: pointer to destination
+ * @src: source
+ * Return: Pointer to destination
  */
 
 char *_strcat(char *dest, char *src)
@@ -15,7 +14,5 @@ while (dest[index++])
 dest_len++;
 for (index = 0; src[index]; index++)
 dest[dest_len++] = src[index];
-
 return (dest);
 }
-
