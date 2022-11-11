@@ -1,3 +1,12 @@
+#include "main.h"
+
+/**
+ * rot13-I encode a string using rot13
+ * @str: String to encode
+ * Return: the str
+ */
+
+
 char *rot13(char *str)
 {
 int indx1 = 0, indx2;
